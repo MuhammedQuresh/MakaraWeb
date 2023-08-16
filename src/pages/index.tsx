@@ -4,6 +4,7 @@ import Navbar from '../components/navbar'
 import HeroComponent from '../components/hero'
 import Intro from '../components/intro'
 import StorageComponent from '../components/storage'
+import QuoteComponent from '../components/quote'
 import Footer from '../components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,6 +19,7 @@ export default function Home() {
       </div>
       <Intro/>
       <StorageComponent/>
+      <QuoteComponent/>
       <Footer/>
 
     </main>
